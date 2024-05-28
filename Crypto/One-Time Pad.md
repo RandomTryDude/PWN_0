@@ -10,7 +10,9 @@ As long as B , the secret, isnt found , the text is virtually impossible to crac
 
 Say B got leaked.
 Reverse the function to find it back 
+
 A^B = C
+
 C ^ B = A 
 
 In Python , With both A & B as b64 encoded value : 
