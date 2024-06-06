@@ -24,4 +24,4 @@ def decrypt(ciphertext,key):
 print(decrypt(cipher,key))
 ```
 
-## AES-ECB (No Key but reused for arbitrary data)
+## AES-ECB (No Key but arbitraty data appended + key reused)
