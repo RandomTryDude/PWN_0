@@ -11,7 +11,7 @@ from Crypto.Cipher import AES
 from base64 import b64encode,b64decode
 
 key = 'Efs87PVJJXwwC2mSJNU0PQ=='
-cipher = 'U0ZTzO0SHx07mV9/EMYBmlb844clcmwbIpLH5cHt5LP7kgc4sKPZaTaRmcbpmNau47PtShahSzE3xLwRuOdLxw=='
+cipher = 'U0ZTzO0SHx07mV9/EMYBmlb844clcmwbIpLH5=='
 
 def encrypt(plaintext,key):
     cipher = AES.new(key,AES.MODE_ECB)
