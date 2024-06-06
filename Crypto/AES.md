@@ -1,4 +1,4 @@
-# AES ECB
+## AES-ECB ( With Key)
 
 Consider you get Key + Cipher
 
@@ -23,3 +23,5 @@ def decrypt(ciphertext,key):
     
 print(decrypt(cipher,key))
 ```
+
+## AES-ECB (No Key but reused for arbitrary data)
