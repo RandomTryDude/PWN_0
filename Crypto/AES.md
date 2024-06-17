@@ -24,4 +24,13 @@ def decrypt(ciphertext,key):
 print(decrypt(cipher,key))
 ```
 
-## AES-ECB (No Key but arbitraty data appended + key reused)
+## AES-ECB (Padding Attack)
+
+What's a padding attack ? 
+Aes-ECB being a block Cipher
+if you can prepend data to the cipher like : 
+where you dont know the clear text
+```
+Custom_Data + clear text = Cipher
+```
+you can 'push' the letters one by one off the last block and try all alphanum until the whole block is known
